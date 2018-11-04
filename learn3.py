@@ -36,3 +36,29 @@ print("The length of the list is %s objects" % lengthList)
 thisIndex = 2
 thirdObjectLength = len(newList[thisIndex])
 print("The length of the object at index %s is %s characters" % (thisIndex, thirdObjectLength))
+
+testString = "I took my dog for a walk in the park"
+indexE = testString.index("p")
+print("The first occurance of the letter 'p' in the string, %s , is the character at index %s!" % (testString, indexE))
+
+number1 = 7
+number2 = 9
+
+if number1 < number2 and number1 > 0:
+    #print("%s is between 0 and %s" (number1, number2))
+    print("The statement is true")
+else:
+    print("the statement is false")
+
+# Functions
+
+def garretts_first_function():
+    print("This is garrett's first function. It has no parameters!")
+
+# How to call a function    
+garretts_first_function()
+
+def garretts_first_function_with_paramss(parameter1, parameter2):
+    print("This is garrett's second function. It has 2 parameters, %s and %s!" % (parameter1, parameter2))
+
+garretts_first_function_with_paramss("yay","hooray")
